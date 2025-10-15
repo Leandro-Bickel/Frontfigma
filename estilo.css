@@ -1,0 +1,88 @@
+#banner {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+#foto-de-perfil {
+    border-radius: 50%;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    left: 55%;
+    top: 3%;
+}
+
+button {
+    color: white;
+    background-color: brown;
+}
+
+button:hover {
+    background-color: coral;
+}
+
+
+
+#q1 {
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    width:30% ;
+    height:auto ;
+    
+}
+
+#q2 {
+    background-color: white;
+   padding: 10px;
+   width: 30%;
+
+
+} 
+.dual-card{
+    display: flex;
+    background-color: #EDF7FA;
+    position: relative;
+    gap: 3%;
+    width: 50%;
+    height: 360px;
+}
+#c1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#k1 {
+    background-color: rgb(215, 215, 229);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#k2{
+ background-color:rgb(215, 215, 229);;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+#q4{
+
+}
+#q5{
+
+}
+
+
+span {
+    background-color: rgb(167, 170, 170);
+    border-radius: 10px;
+    padding: 3px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
